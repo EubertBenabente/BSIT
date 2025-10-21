@@ -240,6 +240,32 @@ header {
 .navbar-bottom a:hover::after {
   transform: translateX(-50%) scaleX(1);
 }
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #ffffff;
+  min-width: 180px;
+  top: 100%;
+  left: 0;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.dropdown-content a {
+  padding: 10px 14px;
+  color: #000000;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
 .BG {

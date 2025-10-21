@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="logo.png" type="image/png">
 </head>
+
 
 <body>
 
@@ -21,29 +23,93 @@
       <p class="subtitle">ACADEMIC WEBSITE</p>
     </div>
 
+  
     <div class="top">
       <div class="navbar-links">
         <a href="aboutus.html">About Us</a>
-        <a href="#">Organization</a>
-        <a href="#">Announcements</a>
-        <a href="#">Bulletin</a>
+        
+    
+       
+        <a href="bulletin.html">Bulletin</a>
+      
+        <a href="ann.html">Announcements</a>
+        <a href="org.html">Organization</a>
+        
+     
         <a href="#">Faculty</a>
         <a href="#"><i class="fa fa-search"></i> Quick Search</a>
-        <a href="#"><i class="fa fa-user"></i> Login</a>
+        <a href="loginpage.html"><i class="fa fa-user"></i> Login</a>
         <a href="#"><i class="fa fa-bars"></i></a>
       </div>
     </div>
 
+    <a href="#"><i class="fa fa-user"></i> Login</a>
+    <a href="#sidebar"><i class="fa fa-bars"></i></a>
+  </div>
+</div>
+
+<div id="sidebar" class="sidebar">
+  <a href="#" class="close-btn">&times;</a>
+  <a href="#">Profile</a>
+  <a href="#">Grades</a>
+  <a href="#">Settings</a>
+  <a href="#">Support</a>
+  <a href="#">Logout</a>
+</div>
 
 
-    <div class="navbar-bottom">
-      <a href="#">Majors</a>
-      <a href="#">Session</a>
-      <a href="#">Performance Measures</a>
-      <a href="#">GPA Calculator</a>
-      <a href="#">Course Mapping Calculator</a>
-      <a href="#">LMS Utilization</a>
+
+   <div class="navbar-bottom">
+  <div class="dropdown">
+    <a href="#">Majors</a>
+    <div class="dropdown-content">
+      <a href="#">programming</a>
+      <a href="#">cybersecurity</a>
     </div>
+  </div>
+
+  <div class="dropdown">
+    <a href="#">Session</a>
+    <div class="dropdown-content">
+      <a href="#">Morning</a>
+      <a href="#">Afternoon</a>
+      <a href="#">Evening</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <a href="#">Performance Measures</a>
+    <div class="dropdown-content">
+      <a href="#">Student Output</a>
+      <a href="#">Faculty Rating</a>
+      <a href="#">Program Evaluation</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <a href="#">GPA Calculator</a>
+    <div class="dropdown-content">
+      <a href="#">Semester GPA</a>
+      <a href="#">Cumulative GPA</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <a href="#">Course Mapping Calculator</a>
+    <div class="dropdown-content">
+      <a href="#">Mapping Tool</a>
+      <a href="#">Course Overview</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <a href="#">LMS Utilization</a>
+    <div class="dropdown-content">
+      <a href="#">Student Usage</a>
+      <a href="#">Faculty Usage</a>
+    </div>
+  </div>
+</div>
 
 
   </header>
@@ -56,13 +122,10 @@
       <h1>INFORMATION TECHNOLOGY</h1>
     </div>
     <div class="tabs">
-      <a href="overview-section">Overview</a>
-      <a href="#">PEO</a>
-      <a href="#">SO</a>
-      <a href="#">Competencies</a>
+      <a href="#overview-section">Overview</a>
+      <a href="#">The Code</a>
       <a href="#">Career Path</a>
-      <a href="#">Curriculum Map</a>
-      <a href="#">Notable Alumni</a>
+      <a href="#notable-alumni">Notable Alumni</a>
     </div>
   </section>
 
@@ -107,6 +170,39 @@
           <p>Cebu Technological University Argao Campus</p>
         </div>
       </div>
+  </section>
+    <section id="notable-alumni" class="notable-alumni">
+    <h2>Notable Alumni</h2>
+    <p class="alumni-intro">
+      The BS in Information Technology program at CTU-Argao has produced graduates who have made remarkable
+      contributions in various industries across the country and abroad.
+    </p>
+
+    <div class="alumni-container">
+      <div class="alumni-card">
+        <img src="hanz.png" alt="Alumni 1">
+        <h4>Hanz Archer M. Dalubatan</h4>
+        <p>Senior Software Engineer, Accenture Philippines</p>
+      </div>
+
+      <div class="alumni-card">
+        <img src="enoc.jpg" alt="Alumni 2">
+        <h4>Adrian Benidict C. Enoc</h4>
+        <p>UI/UX Designer, Nintendo</p>
+      </div>
+
+      <div class="alumni-card">
+        <img src="jane.jpg" alt="Alumni 3">
+        <h4>Janerose G.Culanibang</h4>
+        <p>BSIT Faculty, CTU-ARGAO CAMPUS</p>
+      </div>
+
+      <div class="alumni-card">
+        <img src="josh.png" alt="Alumni 4">
+        <h4>Joshua Remoroza</h4>
+        <p>Cybersecurity Analyst, Globe Telecom</p>
+      </div>
+    </div>
   </section>
 
 </body>
